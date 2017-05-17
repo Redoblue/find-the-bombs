@@ -1,6 +1,6 @@
 # find-the-bombs
 
-#Run
+# Run
 
 You can find a previously compiled executable file in the *cmake-build-debug* folder, run it with some flags:
 
@@ -14,9 +14,9 @@ where flags mean:
 -std        standard deviation of transition model              OPTIONAL
 -showall    whether to show all the particles or the best one   OPTIONAL
 ```
-you can also use *-help* flag to see all the options.
+you can also use **-help** flag to see all the options.
 
-#Explaination
+# Explaination
 
 Our model is processed by the commander, who controls all the processed including **sample**,**transit** and **resample**. For each bomb (object) to find (track), the commander will assign one police to handle it. And each of our police can take many dogs (particles) with him to make things easier.
 
