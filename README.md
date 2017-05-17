@@ -18,6 +18,6 @@ you can also use **-help** flag to see all the options.
 
 # Explaination
 
-Our model is processed by the commander, who controls all the processed including **sample**,**transit** and **resample**. For each bomb (object) to find (track), the commander will assign one police to handle it. And each of our police can take many dogs (particles) with him to make things easier.
+Our model is processed by the commander, who controls all the processes including **sample**,**transit** and **resample**. For each bomb (object) to find (track), the commander will assign one police to handle it. And each of our police can take many dogs (particles) with him to make things easier.
 
-feel free to test! ^_^
+*feel free to test!*  ^_^
