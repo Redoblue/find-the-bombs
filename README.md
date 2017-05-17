@@ -1,7 +1,7 @@
 # find-the-bombs
+Find bombs (track objects) with particle filter tracking technique.
 
 # Run
-
 You can find a previously compiled executable file in the *cmake-build-debug* folder, run it with some flags:
 
 ```
@@ -17,7 +17,6 @@ where flags mean:
 you can also use **-help** flag to see all the options.
 
 # Explaination
-
 Our model is processed by the commander, who controls all the processes including **sample**,**transit** and **resample**. For each bomb (object) to find (track), the commander will assign one police to handle it. And each of our police can take many dogs (particles) with him to make things easier.
 
 *feel free to test!*  ^_^
