@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/find_the_bombs.dir/main.cpp.o  -o find_the_bombs 

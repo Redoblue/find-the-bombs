@@ -1,0 +1,3 @@
+/home/redoblue/CLionProjects/find-the-bombs/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/redoblue/CLionProjects/find-the-bombs/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/redoblue/CLionProjects/find-the-bombs/cmake-build-debug/CMakeFiles/find-the-bombs.dir
