@@ -30,7 +30,7 @@ gsl_rng *rng;
 /* console flags */
 DEFINE_string(file, "", "file to track");
 DEFINE_int32(ndpp, 30, "number of dogs per police");
-DEFINE_double(std, 8.0, "standard deviation of transition");
+DEFINE_double(std, 10.0, "standard deviation of transition");
 DEFINE_bool(showall, false, "whether to show all the dogs");
 
 int main(int argc, char **argv) {
@@ -105,7 +105,7 @@ int main(int argc, char **argv) {
             cv::imshow("Video", frame);
         }
 
-        if (cv::waitKey(delay) >= 0)
+        if (cv::waitKey(delay) == 32)
             stop = true;
 
         index++;
