@@ -6,11 +6,12 @@ The following three libs are required to set up the environment.
 - gsl
 - gflags
 - opencv
+
 You can install the first two of them on ubuntu by simply run the following commands.
 ```
 sudo apt-get install libgsl-dev libgflags-dev
 ```
-As for *OpenCV*, you can refer to this [page](http://www.jianshu.com/p/e12c5d993984). 
+As for **OpenCV**, you can refer to this [page](http://www.jianshu.com/p/e12c5d993984). 
 BTW, you also need cmake with version older than 3.7.
 
 # Run
