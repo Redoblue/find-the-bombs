@@ -14,7 +14,10 @@ sudo apt-get install libgsl-dev libgflags-dev
 As for **OpenCV**, you can refer to this [page](http://www.jianshu.com/p/e12c5d993984). 
 BTW, you also need cmake with version older than 3.7.
 
+---
+
 # Run
+## how to run
 You can find a previously compiled executable file named **find-the-bombs** in the folder, run it with some flags:
 
 ```
@@ -29,6 +32,12 @@ where flags mean:
 ```
 you can also use **-help** flag to see all the options.
 
+## keyboard control
+while runing the file,
+- press **Enter** to confirm selection.
+- press **Space Bar** to quit.
+
+## compile for yourself
 If you want to compile it yourself, just follow the following steps:
 go to the *find-the-bombs* folder, run 
 ```
@@ -39,6 +48,8 @@ and then run
 make
 ```
 all done.
+
+---
 
 # Explaination
 Our model is processed by the commander, who controls all the processes including **sample**,**transit** and **resample**. For each bomb (object) to find (track), the commander will assign one police to handle it. And each of our police can take many dogs (particles) with him to make things easier.
