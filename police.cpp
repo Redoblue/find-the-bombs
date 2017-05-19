@@ -6,7 +6,7 @@
 Police::Police(const cv::Mat &frame, const cv::Rect &rect, const int num_dogs) {
     ColorHistogram ch;
     cv::Mat imgROI = frame(rect);
-    cv::Mat *hist = ch.getHueHistogram(imgROI, 65);
+    cv::Mat *hist = ch.getHueHistogram(imgROI, 40);
 
     for (int i = 0; i < num_dogs; i++) {
         Dog *pd = new Dog(frame.cols, frame.rows, rect, hist);

@@ -28,7 +28,7 @@ void on_mouse(int event, int x, int y, int flags, void *ustc);
 gsl_rng *rng;
 
 /* console flags */
-DEFINE_string(file, "", "file to track");
+DEFINE_string(file, "Ball.avi", "file to track");
 DEFINE_int32(ndpp, 30, "number of dogs per police");
 DEFINE_double(std, 10.0, "standard deviation of transition");
 DEFINE_bool(showall, false, "whether to show all the dogs");
@@ -38,10 +38,12 @@ int main(int argc, char **argv) {
     gflags::SetUsageMessage("Usage: ./find-the-bombs");
     gflags::ParseCommandLineFlags(&argc, &argv, true);
 
+    /*
     if (FLAGS_file == "") {
         std::cout << "no video file specified" << std::endl;
         return 1;
     }
+    */
 
     /*local variables */
     cv::Mat frame;

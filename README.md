@@ -18,8 +18,11 @@ BTW, you also need cmake with version older than 3.7.
 
 # Run
 ## how to run
-You can find a previously compiled executable file named **find-the-bombs** in the folder, run it with some flags:
-
+You can find a previously compiled executable file named **find-the-bombs** in the folder, run 
+```
+./find-the-bombs
+```
+with default parameters or with your own flags:
 ```shell
 ./find-the-bombs -file=Ball.avi -ndpp=50 -std=10.0 -showall=true
 ```

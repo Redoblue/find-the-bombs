@@ -11,7 +11,7 @@ const float Dog::B0 = 1.0f;
 /* standard deviations for gaussian sampling in transition model */
 const double Dog::TRANS_X_STD = FLAGS_std;
 const double Dog::TRANS_Y_STD = FLAGS_std;
-const double Dog::TRANS_S_STD = 0.001f;
+const double Dog::TRANS_S_STD = 0.0;
 
 ColorHistogram *Dog::pHist = new ColorHistogram();
 
@@ -64,7 +64,7 @@ float Dog::_likelihood(const cv::Mat &frame) {
     int h = cvRound(this->height * this->s);
 
     cv::Mat imgROI = frame(cv::Rect(c - w / 2, r - h / 2, w, h));
-    cv::Mat *hist = pHist->getHueHistogram(imgROI, 65);
+    cv::Mat *hist = pHist->getHueHistogram(imgROI, 40);
 
     float d_sq = _histo_dist_sq(this->hist, hist);
 
