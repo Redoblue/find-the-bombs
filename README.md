@@ -8,7 +8,7 @@ The following three libs are required to set up the environment.
 - opencv
 
 You can install the first two of them on ubuntu by simply run the following commands.
-```
+```shell
 sudo apt-get install libgsl-dev libgflags-dev
 ```
 As for **OpenCV**, you can refer to this [page](http://www.jianshu.com/p/e12c5d993984). 
