@@ -20,7 +20,7 @@ BTW, you also need cmake with version older than 3.7.
 ## how to run
 You can find a previously compiled executable file named **find-the-bombs** in the folder, run it with some flags:
 
-```
+```shell
 ./find-the-bombs -file=Ball.avi -ndpp=50 -std=10.0 -showall=true
 ```
 where flags mean:
@@ -40,11 +40,11 @@ while runing the file,
 ## compile for yourself
 If you want to compile it yourself, just follow the following steps:
 go to the *find-the-bombs* folder, run 
-```
+```shell
 cmake .
 ```
 and then run
-```
+```shell
 make
 ```
 all done.
